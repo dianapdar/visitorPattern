@@ -1,6 +1,6 @@
 # visitorPattern
 
-Problem Scenario:
+## Problem Scenario:
 Imagine you are looking for a new mobile plan for your smartphone. Three major telecommunication providers are offering enticing deals: Smart, Globe, and Ditto.
 
 Smart: Offers a data allowance of 15 GB for ₱500 per month. However, they do not offer any free calls or texts, and you will be charged per use.
@@ -10,6 +10,7 @@ Implement the visitor design pattern based from the given diagram. Refer to this
 
 Test your codes before the given client program:
 
+<pre lang="markdown"> ```java
 public class TelcoPromo {
   public static void main(String[] args) {
     TelcoSubscription smart = new Telco(15, 500, Smart,false);
@@ -34,6 +35,7 @@ public class TelcoPromo {
                                    unli.showUnliCallsTextOffer(ditto.getTelcoName(), ditto.getUnliCallText()));
   }
 }
+   ``` </pre>
 
-UML Diagram: https://docs.google.com/document/d/1mGWzHZd0kHXosWmPLbSz1gweZ99V0A3uLNe_2fpQJbU/edit?tab=t.0
+## UML Diagram: https://docs.google.com/document/d/1mGWzHZd0kHXosWmPLbSz1gweZ99V0A3uLNe_2fpQJbU/edit?tab=t.0
 
